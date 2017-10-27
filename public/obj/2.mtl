@@ -1,0 +1,86 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.187496374)
+
+newmtl JoinedMaterial_#9
+#Kd 0.0470588 0.0470588 0.0470588
+Kd 1 1 1
+Ka 0 0 0
+Ks 1 1 1
+Ke 0 0 0
+d 1
+Ns 100
+illum 2
+map_Kd 2.PNG
+
+newmtl Метал осн
+Kd 0.478431 0.478431 0.478431
+Ka 0 0 0
+Ks 0.65098 0.615686 0.521569
+Ke 0 0 0
+d 1
+Ns 75
+illum 2
+
+newmtl Стекло прозрачно
+Kd 0 0 0
+Ka 0 0 0
+Ks 0.992157 0.992157 0.992157
+Ke 0 0 0
+d 0
+Ns 98
+illum 2
+
+newmtl Пластик черный
+Kd 0.0666667 0.0666667 0.0666667
+Ka 0 0 0
+Ks 0.117647 0.117647 0.117647
+Ke 0 0 0
+d 1
+Ns 70
+illum 2
+
+newmtl Линза
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.156863 0.156863 0.156863
+Ke 0 0 0
+d 0.2
+Ns 100
+illum 2
+
+newmtl Вспышка
+Kd 0.862745 0.807843 0.498039
+Ka 0 0 0
+Ks 0.164706 0.164706 0.164706
+Ke 0 0 0
+d 1
+Ns 97
+illum 2
+
+newmtl Сетка
+Kd 0.137255 0.137255 0.137255
+Ka 0 0 0
+Ks 0.564706 0.564706 0.564706
+Ke 0 0 0
+d 1
+Ns 75
+illum 2
+
+newmtl Дисплей 1
+Kd 1 1 1
+Ka 0 0 0
+Ks 0 0 0
+Ke 0 0 0
+d 1
+illum 1
+map_Kd 1.PNG
+
+newmtl Метал 2
+Kd 0 0 0
+Ka 0 0 0
+Ks 0.866667 0.866667 0.866667
+Ke 0 0 0
+d 1
+Ns 95
+illum 2
+

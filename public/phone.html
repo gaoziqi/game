@@ -36,9 +36,9 @@
             type: 'POST',
             async: false,
             url: window.location.href + '/orientation',
-            contentType:"application/x-www-form-urlencoded",
+            contentType: "application/x-www-form-urlencoded",
             data: {'alpha': event.alpha, 'beta': event.beta, 'gamma': event.gamma},
-            success : function(data){
+            success: function (data) {
                 document.getElementById("alpha").innerHTML = data.alpha;
                 document.getElementById("beta").innerHTML = data.beta;
                 document.getElementById("gamma").innerHTML = data.gamma;
@@ -48,7 +48,7 @@
 
 
     function motionHandler(event) {
-        $.ajax({
+        /*$.ajax({
             type: 'POST',
             async: false,
             url: window.location.href + '/motion',
@@ -68,7 +68,17 @@
                 document.getElementById("Rbeta").innerHTML = rotationRate.beta;
                 document.getElementById("Rgamma").innerHTML = rotationRate.gamma;
             }
-        });
+        });*/
+        document.getElementById("interval").innerHTML = event.interval;
+        document.getElementById("x").innerHTML = event.acceleration.x;
+        document.getElementById("y").innerHTML = event.acceleration.y;
+        document.getElementById("z").innerHTML = event.acceleration.z;
+        document.getElementById("xg").innerHTML = event.accelerationIncludingGravity.x;
+        document.getElementById("yg").innerHTML = event.accelerationIncludingGravity.y;
+        document.getElementById("zg").innerHTML = event.accelerationIncludingGravity.z;
+        document.getElementById("Ralpha").innerHTML = event.rotationRate.alpha;
+        document.getElementById("Rbeta").innerHTML = event.rotationRate.beta;
+        document.getElementById("Rgamma").innerHTML = event.rotationRate.gamma;
     }
 
     if (window.DeviceMotionEvent) {
